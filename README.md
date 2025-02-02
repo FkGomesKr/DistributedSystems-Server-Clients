@@ -1,5 +1,6 @@
 # Distributed Systems Project
-Multi Threaded Central Server manages tasks from Multi Threaded Clients. The Server/Task Manager is the only system that interacts with the In Memory Bank of Data. Architecture chosen was 1 thread per client connection and 1 thread per client request when needed. 
+Multi Threaded Central Server manages tasks from Multi Threaded Clients. The Server/Task Manager is the only system that interacts with the In Memory Bank of Data. Architecture followed was 1 thread per client connection and 1 thread per client request when needed.
+Connection threw TCP sockets and syncronization between systems achieved with locks and signals. 
 
 ## Requirements
 - JavaSDK
