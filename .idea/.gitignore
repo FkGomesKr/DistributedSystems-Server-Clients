@@ -1,0 +1,47 @@
+# Maven specific
+/target/
+/dependency-reduced-pom.xml
+/maven-archiver/
+/maven-status/
+/.settings/
+
+# IntelliJ IDEA specific
+/.idea/
+/*.iml
+/out/
+/.idea/modules.xml
+.idea/workspace.xml
+
+# Logs
+*.log
+/logs/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Eclipse specific
+/.project
+/.classpath
+/.settings/
+/*.prefs
+
+# Temporary files
+*.swp
+*.tmp
+*.bak
+*.old
+*.orig
+
+# Generated files
+*.class
+*.jar
+*.war
+*.ear
+*.apk
+*.o
+*.obj
+
+# IDE-specific (optional)
+/.idea/
+/*.iml
